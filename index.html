@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1>Cool CSS below <span style='color: red'>WIP</span></h1>
+
+    <h3>Do you want to know the number?<br>
+    <span id="attentionFButton">Click the button below</span></h3>
+
+        <div class="slidercontainer">
+            <p class="values">Vertical value (in)</p>
+            <input type="range" min="1" max="3" value="2" step='0.1' class="slider" id="rangeFirst">
+        </div>
+        
+        <p class="outputs"><span id="outputFirstSlide"></span></p>
+
+        <div class="slidercontainer">
+            <p class="values">Horizontal Value (in)</p>
+            <input type="range" min="1" max="5" value="3" step="0.1" class="slider" id="rangeSecond">
+        </div>
+        
+        <p class="outputs"><span id="outputSecondSlide"></span></p>
+
+
+    <div>
+        <p>my funky number
+            is <span id="theNumber">number</span>
+        </p>
+        <button id="showResult">result</button>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
